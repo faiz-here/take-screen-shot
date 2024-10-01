@@ -10,5 +10,5 @@ window.onload = function() {
         }).catch(err => {
             console.error('Screenshot capture failed: ', err);
         });
-    }, 10 * 60 * 1000); 
+    }, 2000); 
 };
